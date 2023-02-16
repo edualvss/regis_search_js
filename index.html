@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Buscador Rainbows</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  </head>
+  <body>
+    <h1>Rainbow</h1>
+    <form action="search" method="get" id="formConsulta">
+      <label for="busca">Buscar:</label>
+      <input type="text" id="busca" name="busca" />
+      <button type="submit">Pesquisar</button>
+    </form>
+
+    <table id="tabela-resultados">
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Title</th>
+        </tr>
+      </thead>
+      <tbody id="corpo-tabela"></tbody>
+    </table>
+  </body>
+</html>

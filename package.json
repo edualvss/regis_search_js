@@ -1,0 +1,16 @@
+{
+  "name": "regis_search",
+  "version": "1.0.0",
+  "description": "Projeto elasticsearch - coleção regis",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "elasticsearch": "^16.7.3",
+    "es7": "npm:@elastic/elasticsearch@^7.17.0",
+    "express": "^4.18.2"
+  }
+}
